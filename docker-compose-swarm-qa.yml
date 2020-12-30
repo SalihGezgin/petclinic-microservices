@@ -80,7 +80,11 @@ services:
     depends_on:
      - config-server
      - discovery-server
+<<<<<<< HEAD
     entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java", "-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+=======
+    entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+>>>>>>> feature/msp-19
     networks:
       - clarusnet
     ports:
@@ -100,7 +104,11 @@ services:
     depends_on:
      - config-server
      - discovery-server
+<<<<<<< HEAD
     entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java", "-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+=======
+    entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+>>>>>>> feature/msp-19
     networks:
       - clarusnet
     ports:
@@ -128,7 +136,11 @@ services:
     depends_on:
      - config-server
      - discovery-server
+<<<<<<< HEAD
     entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java", "-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+=======
+    entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+>>>>>>> feature/msp-19
     networks:
       - clarusnet
     ports:
@@ -143,7 +155,11 @@ services:
     depends_on:
      - config-server
      - discovery-server
+<<<<<<< HEAD
     entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java", "-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+=======
+    entrypoint: ["./dockerize","-wait=tcp://discovery-server:8761","-timeout=60s","--","java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+>>>>>>> feature/msp-19
     networks:
       - clarusnet
     ports:
